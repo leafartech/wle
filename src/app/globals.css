@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grad-1 {
+  background: linear-gradient(130deg, #1DB83D, #10DC3A)
+}
+p {
+  font-size: 20px
+}
+
+@media (max-width: 450px) {
+  p {
+    font-size: 16px;
+  }
+}
